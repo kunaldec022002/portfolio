@@ -4,6 +4,7 @@
 
 const texts = [
   "Frontend Developer",
+  "Frontend Web Development"
 ]
 
 let speed  =100;
