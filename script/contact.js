@@ -6,7 +6,6 @@ const storedData = localStorage.getItem('contact-form-data');
 
 if (storedData) {
   const parsedData = JSON.parse(storedData);
-  alert("message send sucessfully");
   storedDataDiv.innerHTML = console.log (`Recently Contacting:  Name: ${parsedData.name}  Email: ${parsedData.email}  Message: ${parsedData.message}`
   );
 
@@ -27,10 +26,4 @@ form.addEventListener('submit', (e) => {
   const formData = { name, email, message };
   localStorage.setItem('contact-form-data', JSON.stringify(formData));
 
- 
-
- 
-
-  // Display the stored data
-  storedDataDiv.innerHTML = `<br> Name: ${name} <br> Email: ${email} <br> Message: ${message}`;
 });
