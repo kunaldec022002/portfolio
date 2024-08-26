@@ -1,0 +1,49 @@
+.Project-container 
+{
+  margin: 50px;
+}
+
+.movie-app-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie-app-child
+{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 420px;
+  border: 1px solid #eabbbb;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0, 0,0,0.2) ;
+  padding: 10px;
+}
+
+.line
+{
+  width: 200px;
+}
+
+p,h1,hr,h3
+{
+  color: #fff;
+}
+.movie-app-img
+{
+  height:200px ;
+  width: 400px;
+  display: block;
+  object-fit: cover;
+  margin: 0px auto;
+}
+
+.link-btn
+{
+  background-color: aquamarine;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
