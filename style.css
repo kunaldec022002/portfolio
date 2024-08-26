@@ -124,8 +124,8 @@ section{
 }
 
 .main-container .image{
-    width: 500px;
-    height: 80vh;
+    width: 400px;
+    height: 70vh;
     border-radius: 100%;
     overflow: hidden;
     box-shadow: 0 0 50px #077b32;
